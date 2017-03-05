@@ -9,5 +9,7 @@ int main()
 	printf("Input summu vklada:");
 	scanf("%f", &summa);
 	summao=summa;
+	if ((srok<0) || (srok>365)) printf("\nIncorrect data");
+	if (summa<10000) printf("\nIncorrect data");
 	return 0;
 }
